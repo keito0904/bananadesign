@@ -1,3 +1,8 @@
+<?php
+/*
+Template Name:about
+*/
+?>
 <!DOCTYPE html>
 <html>
   <head>
