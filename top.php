@@ -45,7 +45,22 @@ Template Name:top
     <div class="main-content">
       <div class="content">
         <div class="left-content">
-          left
+          <div class="box large-box newsfeed-box">
+            <div class="title-back">
+              <h2 class="title">ニュースフィード</h2>
+            </div>
+            <div class="box-content">
+              <ul>
+                <li>
+                  <span class="date">2014年1月1日</span>
+                  <span class="category">
+                    <a href="" class="category">カテゴリー</a>
+                  </span>
+                  <a href="" class="text">テキスト</a>
+                </li>
+              </ul>
+            </div>
+          </div>
         </div>
         <div class="right-content">
           right
