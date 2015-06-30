@@ -22,46 +22,28 @@
         </div>
         <div class="blog-content">
           <div class="left-content">
-            <div class="box small-box">
-              <a href="" class="blog-link">
-                <img src="<?php bloginfo('template_url'); ?>/img/blog-banana.png" class="clip">
-                <div class="blog-image" style="background-image: url(<?php bloginfo('template_url'); ?>/img/blog.jpg)">
-                  <div class="date-back">
-                    <div class="date">
-                      2014年1月1日
+            <?php if(have_posts()): while(have_posts()):the_post(); ?>
+              <div class="box small-box">
+                <a href="<?php the_permalink(); ?>" class="blog-link">
+                  <img src="<?php bloginfo('template_url'); ?>/img/blog-banana.png" class="clip">
+                  <div class="blog-image" style="background-image: url(<?php echo wp_get_attachment_url( get_post_thumbnail_id() ); ?>)">
+                    <div class="date-back">
+                      <div class="date"><?php echo get_the_date(); ?></div>
                     </div>
                   </div>
-                </div>
-                <div class="blog-inner">
-                  <div class="title">
-                    タイトル
-                  </div>
-                  <p class="text">
-                    テキスト
-                  </p>
-                </div>
-              </a>
-            </div>
-            <div class="box small-box">
-              <a href="" class="blog-link">
-                <img src="<?php bloginfo('template_url'); ?>/img/blog-banana.png" class="clip">
-                <div class="blog-image" style="background-image: url(<?php bloginfo('template_url'); ?>/img/blog.jpg)">
-                  <div class="date-back">
-                    <div class="date">
-                      2014年1月1日
+                  <div class="blog-inner">
+                    <div class="title">
+                      <?php if(mb_strlen($post->post_title)>30) { $title= mb_substr($post->post_title,0,30) ; echo $title. ･･･ ;
+                      } else {echo $post->post_title;}?>
                     </div>
+                    <p class="text">
+                      <?php if(mb_strlen($post->post_content)>80) { $content= mb_substr($post->post_content,0,80) ; echo $content. ･･･ ;
+                      } else {echo $post->post_content;}?>
+                    </p>
                   </div>
-                </div>
-                <div class="blog-inner">
-                  <div class="title">
-                    タイトル
-                  </div>
-                  <p class="text">
-                    テキスト
-                  </p>
-                </div>
-              </a>
-            </div>
+                </a>
+              </div>
+            <?php endwhile; endif; ?>
             <div class="clear"></div>
           </div>
           <div class="right-content">
