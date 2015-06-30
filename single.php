@@ -14,6 +14,24 @@
         <h1>ブログ</h1>
       </div>
     </div>
+    <div class="main-content">
+      <div class="content">
+        <div class="top-word" align="center">
+          <img src="<?php bloginfo('template_url'); ?>/img/quo1.png">
+          バナナを食べるくらいならバナナになれ！
+          <img src="<?php bloginfo('template_url'); ?>/img/quo2.png">
+        </div>
+        <div class="blog-content">
+          <div class="left-content">
+            left
+          </div>
+          <div class="right-content">
+            right
+          </div>
+          <div class="clear"></div>
+        </div>
+      </div>
+    </div>
     <?php get_template_part('layouts/footer') ?>
   </body>
 </html>
