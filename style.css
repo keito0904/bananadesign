@@ -1,0 +1,36 @@
+/*
+Theme Name: banana-design
+Version: 1.0
+*/
+
+html, body{
+  width: 100%;
+  height: 100%;
+}
+body{
+  margin: 0;
+  font-size: 14px;
+  font-family: arial, sans-serif;
+  background-color: #f4f9ea;
+  color: #555;
+}
+h1,h2,h3,h4,h5,h6{
+  margin: 0;
+  padding: 0;
+}
+a{
+  color: #316eb6;
+  text-decoration: none;
+  outline: none;
+}
+a:hover{
+  color: #1d487b;
+}
+ul,li{
+  margin:0;
+  padding:0;
+  list-style: none;
+}
+.clear{
+  clear: both;
+}
