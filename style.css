@@ -140,6 +140,12 @@ ul,li{
 .main-content .right-content{
   margin-left: 40px;
 }
+.main-content .left-content.sidebar{
+  width: 240px;
+}
+.main-content .right-content.main{
+  width: 700px;
+}
 .box{
   background-color: #fff;
   box-shadow: 0px 1px 3px rgba(34,50,24,0.6);
