@@ -5,3 +5,12 @@
 .top-word img{
   width: 30px;
 }
+.main-content .left-content{
+  width: 700px;
+}
+.main-content .right-content{
+  width: 240px;
+}
+.blog-content{
+  margin-top: 55px;
+}
