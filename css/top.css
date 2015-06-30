@@ -78,6 +78,13 @@
   width: 330px;
   height: 350px;
   margin-bottom: 40px;
+  float: left;
+}
+.box.small-box.about-box{
+  margin-right: 20px;
+}
+.box.small-box.service-box{
+  margin-left: 20px;
 }
 .box.small-box .box-content img{
   width: 100%;
