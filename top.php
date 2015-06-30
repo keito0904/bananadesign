@@ -81,6 +81,16 @@ Template Name:top
               <p>バナナとは"バナナを食べるくらいならバナナになれ。"をモットーにバナナで世界に凹みをいれるその日まで戦い続ける組織である。</p>
             </div>
           </div>
+          <div class="box small-box service-box">
+            <div class="title-back">
+              <h2 class="title">サービス</h2>
+            </div>
+            <div class="box-content">
+              <img src="<?php bloginfo('template_url'); ?>/img/top2.png">
+              <p>バナナではあらゆるクリエイティブ事業に挑戦しています。</p>
+            </div>
+          </div>
+          <div class="clear"></div>
         </div>
         <div class="right-content">
           right
