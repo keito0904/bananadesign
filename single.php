@@ -23,7 +23,28 @@
         </div>
         <div class="blog-content">
           <div class="left-content">
-            left
+            <div class="box box-large">
+              <img src="<?php bloginfo('template_url'); ?>/img/blog-banana.png" class="clip">
+              <div class="date-back">
+                <div class="date">2014年1月1日</div>
+              </div>
+              <div class="blog-inner">
+                <div class="title">
+                  タイトル
+                </div>
+                <span class="category-link">
+                  <a href="">カテゴリー</a>
+                </span>
+                <div class="twitter-facebook">
+                </div>
+                <div class="clear"></div>
+                <div class="blog-image" style="background-image: url(<?php bloginfo('template_url'); ?>/img/blog.jpg)">
+                </div>
+                <p class="text">
+                  テキスト
+                </p>
+              </div>
+            </div>
           </div>
           <div class="right-content">
             <?php dynamic_sidebar(); ?>
