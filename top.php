@@ -93,7 +93,12 @@ Template Name:top
           <div class="clear"></div>
         </div>
         <div class="right-content">
-          right
+          <div class="ad">
+            <img src="<?php bloginfo('template_url'); ?>/img/ad1.jpg">
+          </div>
+          <div class="ad">
+            <img src="<?php bloginfo('template_url'); ?>/img/ad2.jpg">
+          </div>
         </div>
         <div class="clear"></div>
       </div>
