@@ -1,4 +1,4 @@
-<nav class="top-nav <?php if( is_page( array('about','service','blog')) ) { echo 'shadow'; }else{} ?>">
+<nav class="top-nav <?php if( is_page( array('about','service')) || is_home() ) { echo 'shadow'; }else{} ?>">
   <ul class="content">
     <li class="logo">
       <a href="<?php bloginfo('url'); ?>" class="nav-logo"><img src="<?php bloginfo('template_url'); ?>/img/logo.png"></a>
@@ -17,7 +17,7 @@
     </li>
     <li class="list-border"></li>
     <li>
-      <a href="<?php bloginfo('url'); ?>/blog" class="nav-link <?php if ( is_page('blog') ) { echo 'active'; } ?>">ブログ</a>
+      <a href="<?php bloginfo('url'); ?>/blog" class="nav-link <?php if ( is_home() ) { echo 'active'; } ?>">ブログ</a>
     </li>
     <li class="list-border"></li>
     <div class="clear"></div>
