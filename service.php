@@ -24,7 +24,7 @@ Template Name:service
           <nav class="sidebar-nav">
             <ul>
               <li>
-                <a href="" class="nav-link">
+                <a href="#service-info" class="nav-link">
                   <img src="<?php bloginfo('template_url'); ?>/img/banana.png">
                   事業内容
                 </a>
@@ -33,7 +33,7 @@ Template Name:service
           </nav>
         </div>
         <div class="right-content main">
-          <div class="box large-box service-info-box">
+          <div class="box large-box service-info-box" id="service-info">
             <div class="title-back">
               <h2 class="title">事業内容</h2>
             </div>

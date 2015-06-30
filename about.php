@@ -24,13 +24,13 @@ Template Name:about
           <nav class="sidebar-nav">
             <ul>
               <li>
-                <a href="" class="nav-link">
+                <a href="#ideal" class="nav-link">
                   <img src="<?php bloginfo('template_url'); ?>/img/banana.png">
                   経営理念
                 </a>
               </li>
               <li>
-                <a href="" class="nav-link">
+                <a href="#aboutus" class="nav-link">
                   <img src="<?php bloginfo('template_url'); ?>/img/banana.png">
                   会社情報
                 </a>
@@ -39,7 +39,7 @@ Template Name:about
           </nav>
         </div>
         <div class="right-content main">
-          <div class="box large-box ideal-box">
+          <div class="box large-box ideal-box" id="ideal">
             <div class="title-back">
               <h2 class="title">経営理念</h2>
             </div>
@@ -62,7 +62,7 @@ Template Name:about
               </p>
             </div>
           </div>
-          <div class="box large-box aboutus-box">
+          <div class="box large-box aboutus-box" id="aboutus">
             <div class="title-back">
               <h2 class="title">会社情報</h2>
             </div>
