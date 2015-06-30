@@ -17,5 +17,30 @@ Template Name:top
         <h1>Banana Design</h1>
       </div>
     </div>
+    <nav class="top-nav">
+      <ul class="content">
+        <li class="logo">
+          <a href="" class="nav-logo"><img src="<?php bloginfo('template_url'); ?>/img/logo.png"></a>
+        </li>
+        <li class="list-border"></li>
+        <li>
+          <a href="" class="nav-link">ホーム</a>
+        </li>
+        <li class="list-border"></li>
+        <li>
+          <a href="" class="nav-link">組織概要</a>
+        </li>
+        <li class="list-border"></li>
+        <li>
+          <a href="" class="nav-link">事業内容</a>
+        </li>
+        <li class="list-border"></li>
+        <li>
+          <a href="" class="nav-link">ブログ</a>
+        </li>
+        <li class="list-border"></li>
+        <div class="clear"></div>
+      </ul>
+    </nav>
   </body>
 </html>
