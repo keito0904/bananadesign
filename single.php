@@ -8,5 +8,7 @@
     <link rel="stylesheet"  href="<?php bloginfo('template_url'); ?>/css/single.css">
   </head>
   <body class="single">
+    <?php get_template_part('layouts/header') ?>
+    <?php get_template_part('layouts/footer') ?>
   </body>
 </html>
