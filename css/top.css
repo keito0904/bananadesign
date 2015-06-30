@@ -52,3 +52,25 @@
   font-size: 18px;
   padding: 6px 17px;
 }
+.box-content{
+  padding: 20px 17px;
+}
+.box.large-box.newsfeed-box .box-content{
+  height: 250px;
+  overflow: scroll;
+}
+.box.large-box.newsfeed-box .box-content ul li{
+  margin-bottom: 20px;
+}
+.box.large-box.newsfeed-box .box-content ul li .date{
+  color: #999;
+}
+.box.large-box.newsfeed-box .box-content ul li .category a{
+  background-color: #90bc35;
+  color: #fff;
+  text-decoration: none;
+  padding: 5px 10px;
+  border-radius: 6px;
+  font-size: 12px;
+  margin: 0px 10px;
+}
