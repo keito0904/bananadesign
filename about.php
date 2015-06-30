@@ -42,5 +42,16 @@ Template Name:about
         <h1>組織概要</h1>
       </div>
     </div>
+    <div class="main-content">
+      <div class="content">
+        <div class="left-content sidebar">
+          left
+        </div>
+        <div class="right-content main">
+          right
+        </div>
+        <div class="clear"></div>
+      </div>
+    </div>
   </body>
 </html>
