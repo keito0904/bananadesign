@@ -39,7 +39,7 @@
                   <?php socialButton(); ?>
                 </div>
                 <div class="clear"></div>
-                <div class="blog-image" style="background-image: url(<?php bloginfo('template_url'); ?>/img/blog.jpg)">
+                <div class="blog-image" style="background-image: url(<?php echo wp_get_attachment_url( get_post_thumbnail_id() ); ?>)">
                 </div>
                 <p class="text">
                   テキスト
