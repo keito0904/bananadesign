@@ -33,7 +33,7 @@
                   <?php the_title(); ?>
                 </div>
                 <span class="category-link">
-                  <a href="">カテゴリー</a>
+                  <?php the_category('｜') ?>
                 </span>
                 <div class="twitter-facebook">
                   <?php socialButton(); ?>
