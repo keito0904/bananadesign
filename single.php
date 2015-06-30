@@ -36,6 +36,7 @@
                   <a href="">カテゴリー</a>
                 </span>
                 <div class="twitter-facebook">
+                  <?php socialButton(); ?>
                 </div>
                 <div class="clear"></div>
                 <div class="blog-image" style="background-image: url(<?php bloginfo('template_url'); ?>/img/blog.jpg)">
