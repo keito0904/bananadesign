@@ -12,7 +12,7 @@ Template Name:about
     <link rel="stylesheet"  href="<?php bloginfo('template_url'); ?>/css/about.css">
   </head>
   <body class="about">
-    <nav class="top-nav">
+    <nav class="top-nav <?php if( is_page( array('about','service','blog')) ) { echo 'shadow'; }else{} ?>">
       <ul class="content">
         <li class="logo">
           <a href="<?php bloginfo('url'); ?>" class="nav-logo"><img src="<?php bloginfo('template_url'); ?>/img/logo.png"></a>
