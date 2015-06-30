@@ -37,5 +37,10 @@ Template Name:about
         <div class="clear"></div>
       </ul>
     </nav>
+    <div class="sub-header">
+      <div class="content">
+        <h1>組織概要</h1>
+      </div>
+    </div>
   </body>
 </html>
