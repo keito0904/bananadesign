@@ -42,5 +42,16 @@ Template Name:top
         <div class="clear"></div>
       </ul>
     </nav>
+    <div class="main-content">
+      <div class="content">
+        <div class="left-content">
+          left
+        </div>
+        <div class="right-content">
+          right
+        </div>
+        <div class="clear"></div>
+      </div>
+    </div>
   </body>
 </html>
