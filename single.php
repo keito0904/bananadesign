@@ -26,7 +26,7 @@
             <div class="box box-large">
               <img src="<?php bloginfo('template_url'); ?>/img/blog-banana.png" class="clip">
               <div class="date-back">
-                <div class="date">2014年1月1日</div>
+                <div class="date"><?php echo get_the_date(); ?></div>
               </div>
               <div class="blog-inner">
                 <div class="title">
