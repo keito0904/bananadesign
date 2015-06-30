@@ -45,7 +45,22 @@ Template Name:about
     <div class="main-content">
       <div class="content">
         <div class="left-content sidebar">
-          left
+          <nav class="sidebar-nav">
+            <ul>
+              <li>
+                <a href="" class="nav-link">
+                  <img src="<?php bloginfo('template_url'); ?>/img/banana.png">
+                  経営理念
+                </a>
+              </li>
+              <li>
+                <a href="" class="nav-link">
+                  <img src="<?php bloginfo('template_url'); ?>/img/banana.png">
+                  会社情報
+                </a>
+              </li>
+            </ul>
+          </nav>
         </div>
         <div class="right-content main">
           right
