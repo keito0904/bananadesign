@@ -11,5 +11,10 @@ Template Name:top
     <link rel="stylesheet"  href="<?php bloginfo('stylesheet_url'); ?>">
   </head>
   <body class="top">
+    <div class="top-head">
+      <div class="content">
+        <h1>Banana Design</h1>
+      </div>
+    </div>
   </body>
 </html>
