@@ -30,7 +30,7 @@
               </div>
               <div class="blog-inner">
                 <div class="title">
-                  タイトル
+                  <?php the_title(); ?>
                 </div>
                 <span class="category-link">
                   <a href="">カテゴリー</a>
