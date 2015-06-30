@@ -1,3 +1,8 @@
+<?php
+/*
+Template Name:service
+*/
+?>
 <!DOCTYPE html>
 <html>
   <head>
