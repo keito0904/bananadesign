@@ -20,6 +20,15 @@
           バナナを食べるくらいならバナナになれ！
           <img src="<?php bloginfo('template_url'); ?>/img/quo2.png">
         </div>
+        <div class="blog-content">
+          <div class="left-content">
+            left
+          </div>
+          <div class="right-content">
+            right
+          </div>
+          <div class="clear"></div>
+        </div>
       </div>
     </div>
     <?php get_template_part('layouts/footer') ?>
