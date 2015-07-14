@@ -82,6 +82,8 @@ ul,li{
   color: white;
   display: block;
   width: 160px;
+  height: 60px;
+  box-sizing: border-box;
   font-size: 16px;
   text-align: center;
   padding: 18px 0px;
