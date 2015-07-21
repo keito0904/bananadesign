@@ -26,23 +26,22 @@
             <div class="box box-large">
               <img src="<?php bloginfo('template_url'); ?>/img/blog-banana.png" class="clip">
               <div class="date-back">
-                <div class="date"><?php echo get_the_date(); ?></div>
+                <div class="date">2014年1月1日</div>
               </div>
               <div class="blog-inner">
                 <div class="title">
-                  <?php the_title(); ?>
+                  タイトル
                 </div>
                 <span class="category-link">
-                  <?php the_category('｜') ?>
+                  <a href="">カテゴリー</a>
                 </span>
                 <div class="twitter-facebook">
-                  <?php socialButton(); ?>
                 </div>
                 <div class="clear"></div>
-                <div class="blog-image" style="background-image: url(<?php echo wp_get_attachment_url( get_post_thumbnail_id() ); ?>)">
+                <div class="blog-image" style="background-image: url(<?php bloginfo('template_url'); ?>/img/blog.jpg)">
                 </div>
                 <p class="text">
-                  <?php echo get_the_content(); ?>
+                  テキスト
                 </p>
               </div>
             </div>
