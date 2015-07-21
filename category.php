@@ -25,6 +25,9 @@
           <div class="left-content">
             <div class="category-name">
               カテゴリー：<span class="name"><?php $cat = get_the_category(); $cat = $cat[0]; { echo $cat->cat_name; } ?></span>
+              <div class="description">
+                <?php echo category_description(); ?>
+              </div>
             </div>
             <?php if(have_posts()): while(have_posts()):the_post(); ?>
               <div class="box small-box">
