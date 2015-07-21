@@ -23,28 +23,31 @@
         </div>
         <div class="blog-content">
           <div class="left-content">
-            <div class="box box-large">
-              <img src="<?php bloginfo('template_url'); ?>/img/blog-banana.png" class="clip">
-              <div class="date-back">
-                <div class="date">2014年1月1日</div>
+            <?php if(have_posts()): while(have_posts()):the_post(); ?>
+              <div class="box box-large">
+                <img src="<?php bloginfo('template_url'); ?>/img/blog-banana.png" class="clip">
+                <div class="date-back">
+                  <div class="date"><?php echo get_the_date(); ?></div>
+                </div>
+                <div class="blog-inner">
+                  <div class="title">
+                    <?php the_title(); ?>
+                  </div>
+                  <span class="category-link">
+                    <?php the_category('｜') ?>
+                  </span>
+                  <div class="twitter-facebook">
+                    <?php socialButton(); ?>
+                  </div>
+                  <div class="clear"></div>
+                  <div class="blog-image" style="background-image: url(<?php echo wp_get_attachment_url( get_post_thumbnail_id() ); ?>)">
+                  </div>
+                  <p class="text">
+                    <?php echo get_the_content(); ?>
+                  </p>
+                </div>
               </div>
-              <div class="blog-inner">
-                <div class="title">
-                  タイトル
-                </div>
-                <span class="category-link">
-                  <a href="">カテゴリー</a>
-                </span>
-                <div class="twitter-facebook">
-                </div>
-                <div class="clear"></div>
-                <div class="blog-image" style="background-image: url(<?php bloginfo('template_url'); ?>/img/blog.jpg)">
-                </div>
-                <p class="text">
-                  テキスト
-                </p>
-              </div>
-            </div>
+            <?php endwhile; endif; ?>
           </div>
           <div class="right-content">
             <?php dynamic_sidebar(); ?>
