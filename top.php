@@ -69,8 +69,7 @@ Template Name:top
           <div class="clear"></div>
         </div>
         <div class="right-content">
-          <img src="<?php bloginfo('template_url'); ?>/img/right1.jpg">
-          <img src="<?php bloginfo('template_url'); ?>/img/right2.jpg">
+          right
         </div>
         <div class="clear"></div>
       </div>
