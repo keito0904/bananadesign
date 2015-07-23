@@ -74,6 +74,5 @@ Template Name:top
         <div class="clear"></div>
       </div>
     </div>
-    <?php get_template_part('layouts/footer') ?>
   </body>
 </html>
